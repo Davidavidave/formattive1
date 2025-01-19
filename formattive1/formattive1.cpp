@@ -35,6 +35,7 @@ int main() {
             << "Choose 1-6 " << endl;
         cin >> choose;
 
+
         if (choose == 6) {
             cout << "You choose exit. Thank you";
             return 0;
