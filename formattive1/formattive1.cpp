@@ -8,7 +8,6 @@ int main() {
     int choose;
     int numDiv1;
     int numDiv2;
-    int exit;
     int numAdd1 = 0;
     int numAdd2 = 0;
     int numSub1 = 0;
@@ -23,7 +22,11 @@ int main() {
     do {
 
 
-        cout << "Welcome To Calculator\n";
+       cout << "************************\n"
+
+            << "Welcome To Calculator\n"
+
+            << "*************************\n\n";
 
         cout << "Select what do u want to select\n"
             << "1. Addition\n"
@@ -33,6 +36,7 @@ int main() {
             << "5. Modulos\n"
             << "6. Exit\n"
             << "Choose 1-6 " << endl;
+
         cin >> choose;
 
 
